@@ -23,17 +23,54 @@
       <h2>helping you rise from your desk</h2>
       <nav >
         <a href="index.html">Home</a>
-        <a href="about.html">Recipes</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="about.html">About</a>
       </nav>
     </header>
 
+
     <section class='index-main'>
-      <article class="dough-calculator">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <article class="index-recipes">
+                <h3>Today's Recipe</h3>
+                <h4>Seeded Rye Sourdough Boule</h4>
+                <img class="recipe-img" src="styles/bread-2.jpeg" alt="bread goes here">
 
-        <h3>Baker's Calculator</h3>
-        <form class="" action="index.html" method="post"></form>
 
-      </article>
+                <a href="recipes.html">See more recipes</a>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article class="baker-timer">
+                <h3>Baker's Timer</h3>
+                <em>Time to turn your bread.</em>
+              </article>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8"></div>
+            <div class="col-sm-4">
+              <article id="dough-calc" class="dough-calculator">
+                <h3>Baker's Calculator</h3>
+                <em>All weights are in grams.</em>
+              </article>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8"></div>
+            <div class="col-sm-4">
+              <article class="dough-calculator">
+                <h3>Your Dough</h3>
+                <p id="flour-print">Flour = TK</p>
+                <p id="water-print">Water = TK</p>
+                <p>Salt = TK</p>
+                <p id="yeast-print">Yeast = TK</p>
+              </article>
+            </div>
+          </div>
+        </div>
     </section>
 
     <footer>
